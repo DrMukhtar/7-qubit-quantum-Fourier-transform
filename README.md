@@ -1,4 +1,3 @@
-=================================  
 Seven qubit quantum Fourier transform    
 =================================  
 Musawwadah Mukhtar, PhD  
