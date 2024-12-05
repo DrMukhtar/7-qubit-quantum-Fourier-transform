@@ -5,7 +5,7 @@ https://github.com/DrMukhtar
 
 This is an implementation of a well known quantum algorithm, quantum Fourier transform. This is the first example of my personal project *petitZooQ*, my humble collection of implemented quantum algorithms.    
 
-Quantum Fourier transform (QFT) is one of essential building block of many other quantum algorithm, including the Shor algorithm known for efficient number factorization. It is a powerful algorithm because the performance scale as $O((\math{log} N)^2)$, exponential speed-up compared to $N log N$ of Fast Fourier transform; here the number of qubit required is $\math{log} N$.  
+Quantum Fourier transform (QFT) is one of essential building block of many other quantum algorithm, including the Shor algorithm known for efficient number factorization. It is a powerful algorithm because the performance scale as $O((log N)^2)$, exponential speed-up compared to $N log N$ of Fast Fourier transform; here the number of qubit required is $log N$.  
 
 To my knowledge, factorizing number would require QFT with 8 qubits in the first register; with the second register, this requires 12 qubits in total. This has motivated me to test QFT with 3 qubits up 7 qubits using the available IBM quantum processors. For each case, I compare the output of the quantum processor with the simulation result and the analytical result. The Qiskit package used to run the quantum processor includes simulation. Besides, we can also derive the analytical result. However, it would be impractical to simulate more than 15 qubits using your laptop. I found the case of seven qubits is the limit of their technology; tested on November 2024.  
 
