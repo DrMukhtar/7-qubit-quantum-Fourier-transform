@@ -2,6 +2,8 @@ Seven qubit quantum Fourier transform
 =================================  
 Musawwadah Mukhtar, PhD  
 https://github.com/DrMukhtar  
+https://linkedin.com/in/drmukhtar/
+
 
 This is an implementation of a well known quantum algorithm, quantum Fourier transform. This is the first example of my personal project *petitZooQ*, my humble collection of implemented quantum algorithms.    
 
