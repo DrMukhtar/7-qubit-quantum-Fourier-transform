@@ -27,14 +27,19 @@ One practical measure is to measure the components of the Bloch vector in all se
 |:--:|
 | Figure 1: The average of the measurement shots for the x, y and z components of the seven involved qubits |
 
+As mentioned before, for seven qubits, the measurement results from the QPU are already far from the simulation and the analytical results. I was not surprised as the error of the gate fidelity is said to be around $3 %$. The discrepancies are less significance for the case for the case of three qubits as presented in Figure 2.    
 
+| ![image](output_3qubits.png) |
+|:--:|
+| Figure 2: The average of the measurement shots for the x, y and z components of three qubits |
 
-
-To give a positive outlook, I believe the quantum processor performance will improve. Hopefully, the provided notebook in this project would help you aware of the state of the art of quantum computing.     
+### Concluding remarks
+While, the code for the three-qubit case will be presented in another future repository, hopefully this gives a positive outlook as the quantum processor performance should improve. This notebook may help you to get alerted with subsequent technological leaps.  
 
 Here, you'll find the jupyter notebook. It's self-contained.    
 However, to be able to reproduce the result, you have to install qiskit and have an account to access the IBM quantum processors. Indeed you have to get a token available in you account dashboard.   
 
+### Practical informations
 To install Qiskit:  
 https://docs.quantum.ibm.com/guides/install-qiskit
 
